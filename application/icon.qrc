@@ -1,0 +1,89 @@
+<RCC>
+    <qresource prefix="/icon_n"/>
+    <qresource prefix="/icon_barreN">
+        <file>ressource/icon_n/icon_barreN/gym.png</file>
+        <file>ressource/icon_n/icon_barreN/list (1).png</file>
+        <file>ressource/icon_n/icon_barreN/log-out.png</file>
+        <file>ressource/icon_n/icon_barreN/medical12-1.png</file>
+        <file>ressource/icon_n/icon_barreN/nurse (1).png</file>
+        <file>ressource/icon_n/icon_barreN/nurse.png</file>
+        <file>ressource/icon_n/icon_barreN/prescription (1).png</file>
+        <file>ressource/icon_n/icon_barreN/stationary-bike.png</file>
+        <file>ressource/icon_n/icon_barreN/treadmill.png</file>
+        <file>ressource/icon_n/icon_barreN/user.png</file>
+    </qresource>
+    <qresource prefix="/icon_HbarreN">
+        <file>ressource/icon_n/icon_hN/add_1.png</file>
+        <file>ressource/icon_n/icon_hN/liste_1.png</file>
+        <file>ressource/icon_n/icon_hN/pie-chart.png</file>
+        <file>ressource/icon_n/icon_hN/user.png</file>
+    </qresource>
+    <qresource prefix="/icon_metierN">
+        <file>ressource/icon_n/icon_metN/filter.png</file>
+        <file>ressource/icon_n/icon_metN/micro.png</file>
+        <file>ressource/icon_n/icon_metN/microsoft-excel.png</file>
+        <file>ressource/icon_n/icon_metN/pdf-file.png</file>
+        <file>ressource/icon_n/icon_metN/screenshoot.png</file>
+        <file>ressource/icon_n/icon_metN/search.png</file>
+        <file>ressource/icon_n/icon_metN/face.png</file>
+        <file>ressource/icon_n/icon_metN/ai.png</file>
+    </qresource>
+    <qresource prefix="/icon_tabN">
+        <file>ressource/icon_n/icon_tabN/delete.png</file>
+        <file>ressource/icon_n/icon_tabN/reload.png</file>
+        <file>ressource/icon_n/icon_tabN/update.png</file>
+        <file>ressource/icon_n/icon_tabN/man.png</file>
+        <file>ressource/icon_n/icon_tabN/mail.png</file>
+        <file>ressource/icon_n/icon_tabN/sms.png</file>
+        <file>ressource/icon_n/icon_tabN/clock.png</file>
+        <file>ressource/icon_n/icon_tabN/railway.png</file>
+        <file>ressource/icon_n/icon_tabN/quantity.png</file>
+        <file>ressource/icon_n/icon_tabN/tools.png</file>
+        <file>ressource/icon_n/icon_tabN/padlock.png</file>
+        <file>ressource/icon_n/icon_tabN/role.png</file>
+        <file>ressource/icon_n/icon_tabN/check.png</file>
+        <file>ressource/icon_n/icon_tabN/certif22.png</file>
+        <file>ressource/icon_n/icon_tabN/yearlong/Yearlong_DEMO.ttf</file>
+        <file>ressource/icon_n/icon_tabN/certificate.png</file>
+        <file>ressource/icon_n/icon_tabN/qr-code.png</file>
+        <file>ressource/icon_n/icon_tabN/traducteur.png</file>
+        <file>ressource/icon_n/icon_tabN/weather-forecast.png</file>
+        <file>ressource/icon_n/icon_tabN/archiver.png</file>
+        <file>ressource/icon_n/icon_tabN/map.png</file>
+        <file>ressource/icon_n/icon_tabN/news.png</file>
+    </qresource>
+    <qresource prefix="/icon_ajout_P_N">
+        <file>ressource/icon_n/icon_ajoutPn/location.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/mail.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/pen.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/telephone.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/schedule.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/add-document.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/gender.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/add-photo.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/add-account.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/key.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/folder.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/date.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/picture.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/law.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/ch_on.png</file>
+        <file>ressource/icon_n/icon_ajoutPn/ch_off.png</file>
+    </qresource>
+    <qresource prefix="/icon_b">
+        <file>ressource/icon_b/gymb.png</file>
+        <file>ressource/icon_b/log-outb.png</file>
+        <file>ressource/icon_b/nurse (1)b.png</file>
+        <file>ressource/icon_b/nurseb.png</file>
+        <file>ressource/icon_b/prescription (1)b.png</file>
+        <file>ressource/icon_b/screenshootb.png</file>
+        <file>ressource/icon_b/stationary-bikeb.png</file>
+        <file>ressource/icon_b/treadmillb.png</file>
+        <file>ressource/icon_b/user.png</file>
+        <file>ressource/icon_b/stats1.png</file>
+        <file>ressource/icon_b/logoflexi.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>style.qss</file>
+    </qresource>
+</RCC>

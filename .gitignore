@@ -1,0 +1,21 @@
+# Qt / build
+build-*/
+*.user
+*.o
+moc_*
+ui_*.h
+qrc_*.cpp
+Makefile*
+.qmake.stash
+
+# Fichiers locaux / sensibles
+application/email.txt
+application/Historique_*.txt
+application/capture/
+application/reconnaissance/
+
+# macOS
+.DS_Store
+.localized
+applicationHistorique_salle.txt
+*.log

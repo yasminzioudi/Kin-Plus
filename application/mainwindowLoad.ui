@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwindowLoad</class>
+ <widget class="QMainWindow" name="mainwindowLoad">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidgetLoad">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="dropShadow">
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+	
+border-radius:15px;
+	color: rgb(220, 220, 220);
+
+background-color: rgb(31, 149, 239);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_description">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>20</y>
+         <width>781</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>40</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgba(0, 235, 0, 255)
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;Flexi&lt;/strong&gt;Verse</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>-20</x>
+         <y>100</y>
+         <width>781</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255,255, 255); 
+
+/*color: rgb(98, 114, 164);*/</string>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;Flexi&lt;/strong&gt;Verse</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_2">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>410</y>
+         <width>611</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QProgressBar {
+	background-color: rgb(31, 149, 239);
+border -style:none;
+border-radius:15px;
+text-align:center;
+
+}
+/*QProgressBar::chunk {
+border-radius:6px;
+	/*background-color: qlineargradient(spread:pad, x1:0, y1:0.443, x2:1, y2:0.528, stop:0 rgba(255, 124, 234, 255), stop:1 rgba(170, 85, 255, 255));
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:0.956522, y2:0.403, stop:0 rgba(0, 235, 0, 255), stop:1 rgba(255, 255, 255, 255));
+}*/
+QProgressBar::chunk {
+    border-radius: 6px;
+    background-color: qlineargradient(spread: pad, x1: 0, y1: 0.5, x2: 0.956522, y2: 0.403,
+                                      stop: 0 rgba(0, 235, 0, 255), stop: 1 rgba(0, 235, 0, 255));
+}
+
+QProgressBar::chunk:indeterminate {
+    background-color: qconicalgradient(cx: 0.5, cy: 0.5, angle: 90, 
+                                        stop: 0 rgba(255, 255, 255, 50), 
+                                        stop: 0.2 rgba(255, 255, 255, 200), 
+                                        stop: 0.5 rgba(255, 255, 255, 255), 
+                                        stop: 0.8 rgba(255, 255, 255, 200), 
+                                        stop: 1 rgba(255, 255, 255, 50));
+}
+
+</string>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>440</y>
+         <width>781</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> 
+color: rgb(255, 255, 255);
+/*color: rgb(98, 114, 164);*/</string>
+       </property>
+       <property name="text">
+        <string>loading...</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_credits">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>510</y>
+         <width>731</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> 
+color: rgb(0,0, 0);
+/*color: rgb(98, 114, 164);*/</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Created&lt;/span&gt;:FlexiVerse&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
